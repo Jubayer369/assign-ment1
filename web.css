@@ -1,0 +1,224 @@
+.act-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px;
+  background-color: #f7f9fc; /* light background */
+  gap: 40px;
+}
+
+.text-content {
+  max-width: 500px;
+}
+
+h2 {
+  font-size: 28px;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+ p {
+  color: #6b7280;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.pre-btn {
+  background-color: #4c5fff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+
+  
+}
+
+
+.img-con img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #1f1f1f;
+  text-align: center;
+  height: 100vh;
+  background: url('banner.png') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  font-weight: bold;
+}
+.
+.logo {
+  color: #4a45ff;
+  font-size: 20px;
+}
+
+.signup-btn {
+  background-color: #4a45ff;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Main content */
+.content {
+
+margin-top:100px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.4;
+  color: #1f1f1f;
+}
+
+.focus-btn {
+  margin-top: 60px;
+  padding: 10px 24px;
+  background-color: #4a45ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.bck
+{
+  background-image: url('Hero-bg.png');
+  
+}
+.pro-users {
+  background-color: #f4f6ff; 
+  padding: 70px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.u-card {
+  background-color: #e7eaff; 
+  border-radius: 20px;
+  padding: 40px 60px;
+  text-align: center;
+  max-width: 700px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.u-card h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  color: #333;
+}
+
+.u-stats {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.stat h3 {
+  font-size: 36px;
+  color: #4a4aff; 
+  margin: 0;
+}
+
+.stat p {
+  font-size: 16px;
+  color: #555;
+  margin-top: 8px;
+}
+
+.contact-section {
+  background-color: #f4f6ff;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  width: 100%;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  background-color: #f0f4ff;
+}
+
+.contact-text {
+  flex: 1;
+  min-width: 250px;
+  font-size: 36px;
+  font-weight: bold;
+  padding-right: 40px;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-form label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.contact-form button {
+  background-color: #4a4aff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
