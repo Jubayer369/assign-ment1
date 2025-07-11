@@ -258,3 +258,62 @@ margin-top: 5%;
   height:100px;
   color:rgb(151, 144, 144);
 }
+.fbk-sec {
+  background-color: #f4f6ff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.fbk-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.fbk-cards {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.fbk-card {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+  max-width: 280px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.fbk-card .stars {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.fbk-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 10px;
+  color: #222;
+}
+
+.fbk-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.rev {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rev img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
